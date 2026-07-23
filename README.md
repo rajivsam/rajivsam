@@ -23,6 +23,14 @@ I am the creator and principal maintainer of the **Knowledge-Centric Machine Lea
 👉 **Explore the Core Repository:** [View KMDS Framework](https://github.com/rajivsam/kmds)
 👉 **View the KMDS Examples Repository** [View KMDS Examples Repository](https://github.com/rajivsam/kmds_migration) — *A set of repeatable enterprise-grade operational analytics workflows built using open-source KMDS pipelines.*
 
+--- 
+## 🛠️ Featured Framework: TSEDA
+---
+📈 tseda: Enterprise-Grade Time Series Signal Decomposition & Automated DiagnosticsA high-fidelity Python framework that automates time-series preprocessing, SSA parameter selection, and decomposition. It provides a bridge between automated Notebook pipelines and interactive Plotly dashboards, with built-in auditing through KMDS integration.
+
+👉 **Explore the Core Repository:** [View TSEDA](https://github.com/rajivsam/tseda)
+
+
 ---
 
 ## 📈 Professional Experience & Background
