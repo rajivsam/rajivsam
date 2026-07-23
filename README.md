@@ -21,6 +21,7 @@ I am the creator and principal maintainer of the **Knowledge-Centric Machine Lea
 * **The Solution:** KMDS captures and structures analytical knowledge, feature definitions, and data dependencies to ensure solutions remain sustainable long after initial deployment.
 
 👉 **Explore the Core Repository:** [View KMDS Framework](https://github.com/rajivsam/kmds)
+
 👉 **View the KMDS Examples Repository** [View KMDS Examples Repository](https://github.com/rajivsam/kmds_migration) — *A set of repeatable enterprise-grade operational analytics workflows built using open-source KMDS pipelines.*
 
 --- 
