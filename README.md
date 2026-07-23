@@ -41,6 +41,6 @@ I am available for independent consulting engagements, technical advisory roles,
 * Operations and finance leaders requiring clear data lineage and explainable automated decisions.
 
 📫 **Connect with me:** 
-* **Website:** [r2-ds.com](https://r2-ds.com)
-* **LinkedIn:** [Connect on LinkedIn](https://linkedin.com)
-* **Publications:** [Google Scholar Profile](https://google.com)
+* **Website:** [r2-ds.com](https://www.r2-ds.com)
+* **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/rajiv-sambasivan/)
+* **Publications:** [Google Scholar Profile](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)
