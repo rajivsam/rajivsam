@@ -26,7 +26,7 @@ I am the creator and principal maintainer of the **Knowledge-Centric Machine Lea
 
 --- 
 ## 🛠️ Featured Framework: TSEDA
----
+
 📈 tseda: Enterprise-Grade Time Series Signal Decomposition & Automated DiagnosticsA high-fidelity Python framework that automates time-series preprocessing, SSA parameter selection, and decomposition. It provides a bridge between automated Notebook pipelines and interactive Plotly dashboards, with built-in auditing through KMDS integration.
 
 👉 **Explore the Core Repository:** [View TSEDA](https://github.com/rajivsam/tseda)
