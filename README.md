@@ -20,20 +20,20 @@ I maintain an interconnected suite of open-source Python tools built for **analy
 
 ### 📈 `tseda` — Time-Series Exploratory Decomposition & Diagnostics
 An SSA-first Python package and interactive UI for solving the "cold-start" problem in operational time series. It separates trend, seasonality, and residual noise, identifies regime shifts, and validates signal structure using spectral checks and Durbin-Watson diagnostics before forecasting or anomaly detection begins.
-* 👉 **Repository:** [://github.com](https://://github.com)
+* 👉 **Repository:** [Exploratory tool for Time Series Analysis](https://github.com/rajivsam/tseda)
 
 ### ⏱️ `count_ts_window_selector` — Poisson Window Selection for Count Time Series
 A statistical pre-modeling package for higher-event-rate arrival and count processes. Using density screening, zero-inflation checks, and Fano-factor confidence intervals, it identifies sampling windows where event counts behave locally as a homogeneous Poisson process—allowing downstream models (including `tseda`) to track the evolution of arrival intensity cleanly.
-* 👉 **Repository:** [://github.com](https://://github.com)
+* 👉 **Repository:** [count time series window selection](https://github.com/rajivsam/count_ts_window_selector)
 
 ### 🔍 `structure_id` — Cross-Sectional Dataset Structure Identification
 A descriptive diagnostic package for uncovering internal heterogeneity in tabular datasets prior to global modeling. It detects redundant feature blocks (via normalized mutual information), dense subpopulations, and latent structural breaks so teams know when i.i.d. assumptions fail or drift emerges.
-* 👉 **Repository:** [://github.com](https://://github.com)
+* 👉 **Repository:** [Structural Decomposition Tool for Cross-Sectional Datasets](https://github.com/rajivsam/structure_identification_for_CS_data/)
 
 ### 🧠 `KMDS` — Knowledge Management for Data Science
 An ontology-backed knowledge layer that captures the analytical reasoning, data-quality decisions, and modeling assumptions behind a project. Rather than acting as an MLOps execution tracker, KMDS preserves modeling continuity so teams can warm-start future iterations from a documented, auditable baseline.
-* 👉 **Core Framework:** [://github.com](https://://github.com)
-* 👉 **Applied Case Studies (Finance, Retail, IT Ops):** [://github.com_migration](https://://github.com_migration)
+* 👉 **Core Framework:** [Core KMDS Framework](https://github.com/rajivsam/kmds)
+* 👉 **Applied Case Studies (Finance, Retail, IT Ops):** [KMDS Case Studies](https://github.com/rajivsam/kmds_migration)
 
 ---
 
