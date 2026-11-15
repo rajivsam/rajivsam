@@ -36,6 +36,15 @@ An ontology-backed knowledge layer that captures the analytical reasoning, data-
 * 👉 **Applied Case Studies (Finance, Retail, IT Ops):** [KMDS Case Studies](https://github.com/rajivsam/kmds_migration)
 
 ---
+## ✍️ Selected Writing ([Substack](https://r2dssanity.substack.com))
+
+I write about practical statistical learning, problem framing, and where modern foundation models fit—or fall short—in real operational settings:
+* [Foundation Models for Tabular Data: A Second Opinion or the Oracle?](https://r2dssanity.substack.com/p/foundation-models-for-tabular-data)
+* [Heterogeneity Testing: Why One Model Is Sometimes the Wrong Answer](https://r2dssanity.substack.com/p/heterogeneity-testing-why-one-model)
+* [Beyond the Agent Illusion: Leveraging AI Tools to Scale the Statistical Learning Paradigm](https://r2dssanity.substack.com/p/beyond-the-agent-illusion-leveraging)
+* [From Business Use Case to Technical Design](https://r2dssanity.substack.com/p/from-business-use-case-to-technical)
+
+---
 
 ## 📈 Background & Experience
 
