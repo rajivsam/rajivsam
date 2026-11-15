@@ -54,5 +54,5 @@ I partner directly with CTOs, engineering leaders, and analytical teams on focus
 
 📫 **Connect:**
 * **Advisory & Methodology:** [r2-ds.com](https://r2-ds.com)
-* **LinkedIn:** [://linkedin.com](https://www.://linkedin.com/)
-* **Publications:** [Google Scholar](https://google.com)
+* **LinkedIn:** [://linkedin.com](https://www.linkedin.com/in/rajiv-sambasivan/)
+* **Publications:** [Google Scholar](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)
