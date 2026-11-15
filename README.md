@@ -1,55 +1,58 @@
+# Rajiv Sambasivan | Statistical Learning & Decision Architecture
 
-# Rajiv Sambasivan | Principal Data Scientist & ML Architect
+Independent advisor and builder specializing in **statistically grounded, interpretable analytical systems**. I combine PhD-level training in statistical machine learning with 25+ years of software engineering experience to help organizations understand their data's underlying structure before committing to complex predictive models.
 
-Independent consultant specializing in **Knowledge-Centric Machine Learning Systems (KMDS)**, scalable analytical infrastructure, and robust, auditable AI. I design production-ready alternatives to costly enterprise ML platforms, delivering high-integrity models with built-in data lineage.
-
----
-
-## 🔬 Core Specializations
-
-* **Methodology:** KMDS, Knowledge Graphs, Data Lineage Tracking, Model Auditability & Reproducibility.
-* **Modeling:** Application of Statistical Learning Techniques to develop Business Applications, Graph ML, Explainable AI (XAI), Discrete Optimization.
-* **Infrastructure:** Enterprise ML Architecture, High-Velocity Analytical Pipelines, Platform Offboarding.
+Rather than treating modeling as a black-box exercise or selling rigid platform lock-in, I focus on **descriptive diagnostics, problem framing, and auditable open-source workflows** that stay valid as operating conditions change.
 
 ---
 
-## 🛠️ Featured Framework: KMDS
+## 🔬 Core Approach & Specializations
 
-I am the creator and principal maintainer of the **Knowledge-Centric Machine Learning Systems (KMDS)** framework. KMDS is an open-source methodology engineered to deliver ML products with auditability, transparency, and reproducibility built in from day one.
-
-* **The Problem:** Operational data is rarely clean, static, or friendly to automation.
-* **The Solution:** KMDS captures and structures analytical knowledge, feature definitions, and data dependencies to ensure solutions remain sustainable long after initial deployment.
-
-👉 **Explore the Core Repository:** [View KMDS Framework](https://github.com/rajivsam/kmds)
-
-👉 **View the KMDS Examples Repository** [View KMDS Examples Repository](https://github.com/rajivsam/kmds_migration) — *A set of repeatable enterprise-grade operational analytics workflows built using open-source KMDS pipelines.*
-
---- 
-## 🛠️ Featured Framework: TSEDA
-
-📈 tseda: Enterprise-Grade Time Series Signal Decomposition & Automated DiagnosticsA high-fidelity Python framework that automates time-series preprocessing, SSA parameter selection, and decomposition. It provides a bridge between automated Notebook pipelines and interactive Plotly dashboards, with built-in auditing through KMDS integration.
-
-👉 **Explore the Core Repository:** [View TSEDA](https://github.com/rajivsam/tseda)
-
+* **Descriptive Diagnostics & Structure Discovery:** Time-series decomposition (SSA), Poisson window selection for arrival processes, regime and structural-break detection, heterogeneity assessment, and variance accounting before modeling.
+* **Statistical Learning & Domain Modeling:** Interpretable classification, regression, survival analysis, panel data, intensity-based count modeling, graph representations, and discrete optimization tailored to real operational constraints.
+* **Reproducible Engineering & Knowledge Lineage:** Translating statistical methodology into clean, client-owned Python packages and auditable analytical workflows without proprietary vendor lock-in.
 
 ---
 
-## 📈 Professional Experience & Background
+## 🛠️ Open-Source Analytical Toolkit
 
-* **25+ Years of Engineering Maturity:** Developing and scaling data-centric software applications across **Retail, Financial Services, Telecom, Transportation, and Government** sectors.
-* **Core Career Timeline:** 10 years dedicated to software application development for scheduling and capacity management; 15 years focused strictly on machine learning, information retrieval, data mining, and discrete optimization.
-* **Academic Foundation:** PhD in Machine Learning. Selected publications spanning scalable statistical learning, graph-oriented analytical systems, and enterprise-scale ML infrastructure are indexed on Google Scholar.
+I maintain an interconnected suite of open-source Python tools built for **analyst-guided, diagnostic-first data science**:
+
+### 📈 `tseda` — Time-Series Exploratory Decomposition & Diagnostics
+An SSA-first Python package and interactive UI for solving the "cold-start" problem in operational time series. It separates trend, seasonality, and residual noise, identifies regime shifts, and validates signal structure using spectral checks and Durbin-Watson diagnostics before forecasting or anomaly detection begins.
+* 👉 **Repository:** [://github.com](https://://github.com)
+
+### ⏱️ `count_ts_window_selector` — Poisson Window Selection for Count Time Series
+A statistical pre-modeling package for higher-event-rate arrival and count processes. Using density screening, zero-inflation checks, and Fano-factor confidence intervals, it identifies sampling windows where event counts behave locally as a homogeneous Poisson process—allowing downstream models (including `tseda`) to track the evolution of arrival intensity cleanly.
+* 👉 **Repository:** [://github.com](https://://github.com)
+
+### 🔍 `structure_id` — Cross-Sectional Dataset Structure Identification
+A descriptive diagnostic package for uncovering internal heterogeneity in tabular datasets prior to global modeling. It detects redundant feature blocks (via normalized mutual information), dense subpopulations, and latent structural breaks so teams know when i.i.d. assumptions fail or drift emerges.
+* 👉 **Repository:** [://github.com](https://://github.com)
+
+### 🧠 `KMDS` — Knowledge Management for Data Science
+An ontology-backed knowledge layer that captures the analytical reasoning, data-quality decisions, and modeling assumptions behind a project. Rather than acting as an MLOps execution tracker, KMDS preserves modeling continuity so teams can warm-start future iterations from a documented, auditable baseline.
+* 👉 **Core Framework:** [://github.com](https://://github.com)
+* 👉 **Applied Case Studies (Finance, Retail, IT Ops):** [://github.com_migration](https://://github.com_migration)
 
 ---
 
-## 💼 Let's Collaborate
+## 📈 Background & Experience
 
-I am available for independent consulting engagements, technical advisory roles, and fractional architecture assignments. I partner with:
-* Teams looking to bypass or migrate away from rigid enterprise ML platform vendor lock-in.
-* Organizations needing deep, hands-on modeling support (classification, regression, survival analysis, panel data).
-* Operations and finance leaders requiring clear data lineage and explainable automated decisions.
+* **25+ Years of Software & Analytical Engineering:** Built and scaled data-centric applications across **Financial Services, Retail, Telecom, Transportation, and Government**.
+* **Engineering + Modeling Depth:** 10 years architecting software for scheduling and capacity management, followed by 15+ years focused on statistical learning, information retrieval, graph analytics, and discrete optimization.
+* **Academic Foundation:** PhD in Machine Learning (trained under a committee of statisticians). Published research spanning fast Gaussian processes, Bayesian learning for big data, Singular Spectrum Analysis, augmented trees, and graph neural networks is available on [Google Scholar](https://google.com).
 
-📫 **Connect with me:** 
-* **Website:** [r2-ds.com](https://www.r2-ds.com)
-* **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/rajiv-sambasivan/)
-* **Publications:** [Google Scholar Profile](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)
+---
+
+## 💼 Advisory & Collaboration
+
+I partner directly with CTOs, engineering leaders, and analytical teams on focused engagements where **decision validity, interpretability, and mathematical maintenance** matter:
+* **Problem Framing & Diagnostic Audits:** Assessing whether operational data supports modeling, uncovering hidden subpopulations, and diagnosing structural drift.
+* **Domain-Specific Statistical Solutions:** Designing transparent, maintainable models and feature representations rooted in the actual data-generating process.
+* **Open-Platform Transition:** Replacing opaque, costly vendor workflows with auditable, client-owned Python pipelines.
+
+📫 **Connect:**
+* **Advisory & Methodology:** [r2-ds.com](https://r2-ds.com)
+* **LinkedIn:** [://linkedin.com](https://www.://linkedin.com/)
+* **Publications:** [Google Scholar](https://google.com)
