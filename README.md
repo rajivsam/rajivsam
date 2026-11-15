@@ -12,9 +12,9 @@ Independent advisor specializing in **statistically grounded, interpretable anal
 ---
 
 ## 🛠️ Open-Source Analytical Toolkit
-* [`tseda`](https://github.com/rajivsam/tseda): SSA-first time-series exploratory decomposition and diagnostics.
-* [`count_ts_window_selector`](https://github.com/rajivsam/count_ts_window_selector): Poisson window selection for count time series.
-* [`structure_id`](https://github.com/rajivsam/structure_identification_for_CS_data/): Cross-sectional dataset structure identification.
+* [`tseda`](https://github.com/rajivsam/tseda): SSA-first time-series exploratory decomposition and diagnostics to uncover underlying trends, seasonality, and noise before modeling.
+* [`count_ts_window_selector`](https://github.com/rajivsam/count_ts_window_selector): Automated Poisson window selection for count time series to reliably detect rate changes and operational shifts.
+* [`structure_id`](https://github.com/rajivsam/structure_identification_for_CS_data/): Cross-sectional dataset structure identification to diagnose data heterogeneity and guide model selection.
 * [`KMDS`](https://github.com/rajivsam/kmds): Knowledge Management for Data Science (with case studies at [`KMDS Case Studies`](https://github.com/rajivsam/kmds_migration)).
 
 ---
@@ -41,3 +41,4 @@ Partnering with leadership on problem framing, diagnostic audits, domain-specifi
 * **Advisory & Methodology:** [r2-ds.com](https://r2-ds.com)
 * **LinkedIn:** [linkedin.com/in/rajiv-sambasivan](https://www.linkedin.com/in/rajiv-sambasivan/)
 * **Publications:** [Google Scholar](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)
+* **Writing & Essays:** [Substack](https://substack.com/@r2dssanity)
