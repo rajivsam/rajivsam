@@ -1,44 +1,55 @@
-# Rajiv Sambasivan | Statistical Learning & Decision Architecture
+# Rajiv Sambasivan
+### Statistical learning for data-rich companies that want ML they can understand, own, and afford
 
-Independent advisor specializing in **statistically grounded, interpretable analytical systems**, combining PhD-level training in statistical machine learning with 25+ years of software engineering.
+Most ML problems I'm called in on aren't model problems. They're data problems
+(hidden heterogeneity, shifting regimes, the wrong window) or ownership problems
+(a system nobody on the team can explain or maintain). I fix both, with PhD-level
+statistical training and 25+ years of production software engineering behind the work,
+and without the big-vendor premium.
 
----
-
-## 🔬 Core Approach & Specializations
-* **Descriptive Diagnostics:** Time-series decomposition (SSA), Poisson window selection, and regime/structural-break detection.
-* **Statistical Learning:** Interpretable classification, regression, survival analysis, panel data, and discrete optimization.
-* **Reproducible Engineering:** Clean, client-owned Python packages and auditable workflows without vendor lock-in.
-
----
-
-## 🛠️ Open-Source Analytical Toolkit
-* [`tseda`](https://github.com/rajivsam/tseda): SSA-first time-series exploratory decomposition and diagnostics to uncover underlying trends, seasonality, and noise before modeling.
-* [`count_ts_window_selector`](https://github.com/rajivsam/count_ts_window_selector): Automated Poisson window selection for count time series to reliably detect rate changes and operational shifts.
-* [`structure_id`](https://github.com/rajivsam/structure_identification_for_CS_data/): Cross-sectional dataset structure identification to diagnose data heterogeneity and guide model selection.
-* [`KMDS`](https://github.com/rajivsam/kmds): Knowledge Management for Data Science (with case studies at [`KMDS Case Studies`](https://github.com/rajivsam/kmds_migration)).
+**Best fit if you:**
+- have an existing ML system that is hard to interpret, expensive to run, or fragile to maintain, or
+- are starting a new ML initiative and want it built to be explainable and owned by your team from day one.
 
 ---
 
-## ✍️ Selected Writing ([Substack](https://r2dssanity.substack.com))
-* [Foundation Models for Tabular Data: A Second Opinion or the Oracle?](https://r2dssanity.substack.com/p/foundation-models-for-tabular-data)
-* [Heterogeneity Testing: Why One Model Is Sometimes the Wrong Answer](https://r2dssanity.substack.com/p/heterogeneity-testing-why-one-model)
-* [Beyond the Agent Illusion: Leveraging AI Tools to Scale the Statistical Learning Paradigm](https://r2dssanity.substack.com/p/beyond-the-agent-illusion-leveraging)
-* [From Business Use Case to Technical Design](https://r2dssanity.substack.com/p/from-business-use-case-to-technical)
+## How I work
 
----
+1. **Diagnose before modeling.** Structured audits of your data: trends, seasonality,
+   structural breaks, and whether one model is even the right answer.
+2. **Prefer interpretable methods.** Classification, regression, survival analysis, panel data,
+   and optimization, with the simplest approach that meets the need.
+3. **Hand over what you own.** Clean Python packages, documented and reproducible,
+   no vendor lock-in, no black boxes your team can't maintain.
 
-## 📈 Background & Experience
-* **25+ Years Experience:** Data-centric applications across Financial Services, Retail, Telecom, Transportation, and Government.
-* **Modeling & Engineering Depth:** Software architecture, statistical learning, graph analytics, and optimization.
-* **Academic Foundation:** PhD in Machine Learning; research available on [Google Scholar](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en).
+## What this looks like in practice
 
----
+| Your situation | What I do | Typical outcome |
+|---|---|---|
+| Model performance has drifted and nobody knows why | Regime/structural-break diagnostics | [e.g., root cause identified, retraining trigger defined] |
+| Operational counts (orders, claims, tickets) swing unpredictably | Poisson window selection for rate changes | [e.g., real shifts separated from noise] |
+| One model underperforms across customer segments | Heterogeneity testing and structure identification | [e.g., segment-aware design] |
+| Cloud/vendor ML costs are climbing | Right-size to simpler, in-house-maintainable methods | [e.g., cost reduction, if you have a real example] |
 
-## 💼 Advisory & Collaboration
-Partnering with leadership on problem framing, diagnostic audits, domain-specific statistical solutions, and open-platform transitions.
+*[Replace with 1–2 real anonymized case studies if you can. These are the most valuable thing on the page.]*
 
-📫 **Connect:**
-* **Advisory & Methodology:** [r2-ds.com](https://r2-ds.com)
-* **LinkedIn:** [linkedin.com/in/rajiv-sambasivan](https://www.linkedin.com/in/rajiv-sambasivan/)
-* **Publications:** [Google Scholar](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)
-* **Writing & Essays:** [Substack](https://substack.com/@r2dssanity)
+## Open-source toolkit (what I use on engagements)
+
+| Tool | Solves |
+|---|---|
+| [`tseda`](https://github.com/rajivsam/tseda) | Decompose a time series into trend, seasonality, and noise before you model it |
+| [`count_ts_window_selector`](https://github.com/rajivsam/count_ts_window_selector) | Detect real rate changes in count data |
+| [`structure_id`](https://github.com/rajivsam/structure_identification_for_CS_data/) | Diagnose heterogeneity in cross-sectional data |
+| [`KMDS`](https://github.com/rajivsam/kmds) | Keep data science work documented and reusable across a team ([case studies](https://github.com/rajivsam/kmds_migration)) |
+
+## Writing
+- [Heterogeneity Testing: Why One Model Is Sometimes the Wrong Answer](https://r2dssanity.substack.com/p/heterogeneity-testing-why-one-model): *[one-sentence takeaway]*
+- [Foundation Models for Tabular Data: A Second Opinion or the Oracle?](https://r2dssanity.substack.com/p/foundation-models-for-tabular-data): *[one-sentence takeaway]*
+
+## Background
+PhD in Machine Learning ([Google Scholar](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)) ·
+25+ years across financial services, retail, telecom, transportation, and government.
+
+## Let's talk
+**Start with a short conversation about your current ML setup or planned project: [r2-ds.com](https://r2-ds.com)**
+[LinkedIn](https://www.linkedin.com/in/rajiv-sambasivan/) · [Substack](https://substack.com/@r2dssanity)
