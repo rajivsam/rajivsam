@@ -43,8 +43,8 @@ and without the big-vendor premium.
 | [`KMDS`](https://github.com/rajivsam/kmds) | Keep data science work documented and reusable across a team ([case studies](https://github.com/rajivsam/kmds_migration)) |
 
 ## Writing
-- [Heterogeneity Testing: Why One Model Is Sometimes the Wrong Answer](https://r2dssanity.substack.com/p/heterogeneity-testing-why-one-model): *[one-sentence takeaway]*
-- [Foundation Models for Tabular Data: A Second Opinion or the Oracle?](https://r2dssanity.substack.com/p/foundation-models-for-tabular-data): *[one-sentence takeaway]*
+- [Heterogeneity Testing: Why One Model Is Sometimes the Wrong Answer](https://r2dssanity.substack.com/p/heterogeneity-testing-why-one-model): *The data you are using to build your model may be complex and require approaches that can work with the underlying structure*
+- [Foundation Models for Tabular Data: A Second Opinion or the Oracle?](https://r2dssanity.substack.com/p/foundation-models-for-tabular-data): *Foundation models are useful, sometimes, not always.*
 
 ## Background
 PhD in Machine Learning ([Google Scholar](https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en)) ·
