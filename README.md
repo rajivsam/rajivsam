@@ -26,12 +26,12 @@ and without the big-vendor premium.
 
 | Your situation | What I do | Typical outcome |
 |---|---|---|
-| Model performance has drifted and nobody knows why | Regime/structural-break diagnostics | [e.g., root cause identified, retraining trigger defined] |
-| Operational counts (orders, claims, tickets) swing unpredictably | Poisson window selection for rate changes | [e.g., real shifts separated from noise] |
-| One model underperforms across customer segments | Heterogeneity testing and structure identification | [e.g., segment-aware design] |
-| Cloud/vendor ML costs are climbing | Right-size to simpler, in-house-maintainable methods | [e.g., cost reduction, if you have a real example] |
+| Model performance has drifted and nobody knows why | Regime/structural-break diagnostics | see [tseda](https://github.com/rajivsam/tseda) and [structural decomposition tool](https://github.com/rajivsam/structure_identification_for_CS_data) for examples |
+| Operational counts (orders, claims, tickets) swing unpredictably | see [count window selector](https://github.com/rajivsam/count_ts_window_selector) for examples |
+| One model underperforms across customer segments | Heterogeneity testing and structure identification | [e.g., segment-aware design], see   [structural decomposition tool](https://github.com/rajivsam/structure_identification_for_CS_data)|
+| Cloud/vendor ML costs are climbing | Right-size to simpler, in-house-maintainable methods | see [the kmds examples for how a solution would look](https://github.com/rajivsam/kmds_migration)|
 
-*[Replace with 1–2 real anonymized case studies if you can. These are the most valuable thing on the page.]*
+
 
 ## Open-source toolkit (what I use on engagements)
 
