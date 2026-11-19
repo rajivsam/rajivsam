@@ -42,6 +42,8 @@ and without the big-vendor premium.
 | [`structure_id`](https://github.com/rajivsam/structure_identification_for_CS_data/) | Diagnose heterogeneity in cross-sectional data |
 | [`KMDS`](https://github.com/rajivsam/kmds) | Keep data science work documented and reusable across a team ([case studies](https://github.com/rajivsam/kmds_migration)) |
 
+For an example of typcial project development summary, see [the sba model development summary](https://github.com/rajivsam/kmds_migration/blob/main/sba_migration/documents/sba_modelling_overview.md)
+
 ## Writing
 - [Heterogeneity Testing: Why One Model Is Sometimes the Wrong Answer](https://r2dssanity.substack.com/p/heterogeneity-testing-why-one-model): *How to test whether your data reflects one stable process or hidden sub-populations that require separate models.*
 - [Foundation Models for Tabular Data: A Second Opinion or the Oracle?](https://r2dssanity.substack.com/p/foundation-models-for-tabular-data): Where pre-trained tabular models help with cold starts, and why domain judgment and interpretability still matter more than model size.*
